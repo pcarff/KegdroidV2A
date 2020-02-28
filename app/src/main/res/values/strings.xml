@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">KegDroid Kiosk</string>
+    <string name="default_kegdroid_name">KegDroid Default</string>
+    <string name="no_kegdroid_attached">Please Connect Your KegDroid!</string>
+    
+    <string name="temperature_label">°F</string>
+    <string name="keg_label">Keg Level</string>
+    
+    <string name="beam_message">BEAM HERE</string>
+    
+    <!-- Menu Items -->
+    <string name="menu_settings">Settings</string>
+    <string name="update_database">Update Database</string>
+    <string name="setup_left_tap"> Setup Left Tap</string>
+    <string name="setup_right_tap"> Setup Right Tap</string>
+    <string name="update_kegdroid_to_cloud">Update KegDroid In Cloud</string>
+    <string name="register_kegdroid">Register KegDroid</string>
+    <string name="set_name">Configure KegDroid</string>
+    
+    <string name="set_name_button">UPDATE</string>
+    
+    <string name="nfc_on">On</string>
+    <string name="nfc_off">Off</string>
+    <string name="nfc_text">NFC MODE</string>
+    <string name="nfc_menu">Set NFC Mode</string>
+    <string name="nfc_type">anzym.com:kegdroid_name</string>
+    
+    
+    <string name="cancel">CANCEL</string>
+    <string name="confirm">POUR</string>
+    <string name="instructions">Place your glass under the tap and\npress CONFIRM.</string>
+    <string name="order">00 oz of Beer Name</string><string name="user_name">Joe Drinker</string>
+    <string name="confirm_order">Please confirm your order:</string>
+
+    <!-- Beer Controller default data -->
+    <string name="image_description">bottle image of the beer on tap</string>
+    <string name="name_of_beer">My favorite beer.</string>
+    <string name="name_of_brewery">The Brewery</string>
+    <string name="beer_style">Big Stout</string>
+    <string name="beer_abv">ABV: 5.4%</string>
+    <string name="beer_ibu">IBU: 5.4%</string>
+    <string name="beer_description">One of the most satisfying beers of all time.  
+        It is what God created beer in the first place.</string>
+        
+    <string name="keg_5_gal">5 Gal</string>
+    <string name="keg_15_gal">15 Gal</string>
+
+    <string name="gplus_api_key">AIzaSyAVGY2KFiIxHhpIMyDp4IJAK4okc_sZqlA</string>
+
+    <string name="default_id">012345678901234567890</string>
+    <string name="default_email">default@domain.com</string>
+
+    <string name="app_message">"Bonjour PAUL "</string>
+
+</resources>

@@ -1,0 +1,128 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.anzym.kegdroidv2a"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+7-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+8        android:minSdkVersion="16"
+8-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+9        android:targetSdkVersion="27" />
+9-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:9:9-38
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:11:5-67
+11-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:11:22-64
+12    <uses-permission android:name="android.permission.NFC" />
+12-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:12:5-62
+12-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:12:22-59
+13    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+13-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:13:5-81
+13-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:13:22-78
+14    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+14-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:14:5-79
+14-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:14:22-76
+15
+16    <application
+16-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:16:5-70:19
+17        android:name="com.anzym.android.kegdroidkiosk.KegDroidKioskApplication"
+17-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:17:9-80
+18        android:allowBackup="true"
+18-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:18:9-35
+19        android:debuggable="true"
+20        android:icon="@drawable/ic_launcher"
+20-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:19:9-45
+21        android:label="@string/app_name"
+21-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:20:9-41
+22        android:testOnly="true"
+23        android:theme="@style/AppTheme" >
+23-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:21:9-40
+24        <uses-library android:name="com.android.future.usb.accessory" />
+24-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:22:9-73
+24-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:22:23-70
+25        <!--
+26        Make KegDroidKiosk a home app replacement
+27        <activity android:name="Home"
+28                android:theme="@style/AppTheme"
+29                android:launchMode="singleInstance"
+30                android:stateNotNeeded="true">
+31            <intent-filter>
+32                <action android:name="android.intent.action.MAIN" />
+33                <category android:name="android.intent.category.HOME"/>
+34                <category android:name="android.intent.category.DEFAULT" />
+35            </intent-filter>
+36        </activity>
+37        -->
+38        <activity
+38-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:35:9-48:20
+39            android:name="com.anzym.android.kegdroidkiosk.KegDroidKioskMainActivity"
+39-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:36:13-85
+40            android:label="@string/app_name"
+40-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:37:13-45
+41            android:launchMode="singleTask" >
+41-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:38:13-44
+42            <intent-filter>
+42-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:39:13-46:29
+43                <action android:name="android.nfc.action.NDEF_DISCOVERED" />
+43-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:40:17-77
+43-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:40:25-74
+44
+45                <category android:name="android.intent.category.DEFAULT" />
+45-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:41:17-76
+45-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:41:27-73
+46
+47                <data
+47-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:42:17-45:56
+48                    android:host="ext"
+48-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:43:21-39
+49                    android:pathPrefix="/anzym.com:kegdroid_name"
+49-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:44:21-66
+50                    android:scheme="vnd.android.nfc" />
+50-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:45:21-53
+51            </intent-filter>
+52        </activity>
+53        <activity
+53-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:49:9-56:20
+54            android:name="com.anzym.android.kegdroidkiosk.KegDroidKioskLauncherActivity"
+54-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:50:13-89
+55            android:label="@string/app_name" >
+55-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:51:13-45
+56            <intent-filter>
+56-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:52:13-55:29
+57                <action android:name="android.intent.action.MAIN" />
+57-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:53:17-69
+57-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:53:25-66
+58
+59                <category android:name="android.intent.category.LAUNCHER" />
+59-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:54:17-77
+59-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:54:27-74
+60            </intent-filter>
+61        </activity>
+62        <activity
+62-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:57:9-68:20
+63            android:name="com.anzym.android.kegdroidkiosk.UsbAccessoryActivity"
+63-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:58:13-48
+64            android:label="@string/app_name"
+64-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:59:13-45
+65            android:launchMode="singleInstance"
+65-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:60:13-48
+66            android:taskAffinity="" >
+66-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:61:13-36
+67            <intent-filter>
+67-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:62:13-64:29
+68                <action android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED" />
+68-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:63:17-93
+68-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:63:25-90
+69            </intent-filter>
+70
+71            <meta-data
+71-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:65:13-67:60
+72                android:name="android.hardware.usb.action.USB_ACCESSORY_ATTACHED"
+72-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:66:17-82
+73                android:resource="@xml/accessory_filter" />
+73-->/Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:67:17-57
+74        </activity>
+75    </application>
+76
+77</manifest>

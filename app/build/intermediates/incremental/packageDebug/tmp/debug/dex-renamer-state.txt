@@ -1,0 +1,4 @@
+#Fri Feb 28 08:30:50 EST 2020
+base.0=/Users/pcarff/CODE/Android/KegdroidV2A/app/build/intermediates/dex/debug/out/classes.dex
+path.0=classes.dex
+renamed.0=classes.dex

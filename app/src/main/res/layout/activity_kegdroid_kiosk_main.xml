@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/application_pane_container"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/background"
+    android:keepScreenOn="true"
+    android:padding="16dp">
+
+    <RelativeLayout
+        android:id="@+id/keg_system_data_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:padding="5dp" >
+        
+        <include
+            android:id="@+id/scan_msg_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            layout="@layout/scan_msg_container" />
+        <TextView
+	        android:id="@+id/kegdroid_name"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:textColor="@color/scan_badge_text"
+	        android:textSize="50dp"
+	        android:layout_centerHorizontal="true"
+	        android:layout_below="@id/scan_msg_container_ref"
+	        android:text="@string/default_kegdroid_name"
+        />
+        <include
+            android:id="@+id/system_data_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            layout="@layout/system_data_container" 
+            android:layout_below="@id/kegdroid_name"/>
+        <include
+            android:id="@+id/test_msg_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            layout="@layout/test_msg_container" 
+            android:layout_below="@id/system_data_container_ref"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/left_pane_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toLeftOf="@id/keg_system_data_container"
+        android:gravity="left"
+        android:paddingLeft="5dp">
+
+        <include
+            android:id="@+id/left_pane_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="468dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/fragment_beer_pane" />
+
+        <include
+            android:id="@+id/left_vsf_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/left_pane_container_ref"
+            layout="@layout/vsf_container"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/right_pane_container"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/keg_system_data_container"
+        android:gravity="right"
+        android:paddingRight="5dp">
+
+        <include
+            android:id="@+id/right_pane_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="468dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            layout="@layout/fragment_beer_pane" />
+
+        <include
+            android:id="@+id/right_vsf_container_ref"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_below="@+id/right_pane_container_ref"
+            layout="@layout/vsf_container"
+            android:gravity="center" />
+
+    </RelativeLayout>
+
+
+</RelativeLayout>

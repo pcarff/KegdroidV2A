@@ -1,0 +1,18 @@
+<resources>
+
+    <style name="AppBaseTheme" parent="android:Theme.Holo" />
+
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:actionBarStyle">@style/ActionBarStyle</item>
+    </style>
+
+    <style name="ActionBarStyle" parent="android:Widget.Holo.ActionBar">
+        <item name="android:icon">@drawable/ic_actionbar_icon</item>
+        <item name="android:titleTextStyle">@style/TitleTextStyle</item>
+        <item name="android:background">@null</item>
+    </style>
+
+    <style name="TitleTextStyle" parent="android:TextAppearance.Holo.Widget.ActionBar.Title">
+        <item name="android:fontFamily">sans-serif-light</item>
+    </style>
+</resources>

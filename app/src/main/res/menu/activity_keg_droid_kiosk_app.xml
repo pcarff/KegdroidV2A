@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/setup_left_tap"
+        android:title="@string/setup_left_tap"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/setup_right_tap"
+        android:title="@string/setup_right_tap"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/update_database"
+        android:title="@string/update_database"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/update_kegdroid_to_cloud"
+        android:title="@string/update_kegdroid_to_cloud"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/configure_kegdroid"
+        android:title="@string/set_name"
+        android:orderInCategory="100"/>
+    <item android:id="@+id/enable_nfc"
+        android:title="@string/nfc_menu"
+        android:orderInCategory="100"/>
+</menu>

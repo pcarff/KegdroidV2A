@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/keg_system_data_container"
+    android:layout_width="wrap_content"
+    android:layout_height="150dp"
+    android:padding="20sp"
+    android:orientation="horizontal"
+    android:layout_gravity="center_horizontal">
+
+    <LinearLayout
+        android:id="@+id/left_keg_level_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginRight="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/left_keg_level"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/keg_level_0"
+            />
+
+        <TextView
+            android:id="@+id/left_keg_level_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/keg_label"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/subtitle_color"
+            />
+    </LinearLayout>
+
+    <include
+        android:id="@+id/temperature_container"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="3dip"
+        layout="@layout/temperature_container" />
+
+    <LinearLayout
+        android:id="@+id/right_keg_level_container"
+        android:layout_width="100dp"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="32dp"
+        android:gravity="center_horizontal"
+        android:orientation="vertical"
+        android:padding="3dip">
+
+        <ImageView
+            android:id="@+id/right_keg_level"
+            android:layout_height="100dp"
+            android:layout_width="wrap_content"
+            android:src="@drawable/keg_level_0" />
+
+        <TextView
+            android:id="@+id/right_keg_level_label"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:text="@string/keg_label"
+            android:gravity="center"
+            android:textSize="16sp"
+            android:textAllCaps="true"
+            android:textColor="@color/subtitle_color"
+            />
+    </LinearLayout>
+</LinearLayout>

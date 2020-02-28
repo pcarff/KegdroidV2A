@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/beer_size_selection_container"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:dividerPadding="16dp"
+    android:showDividers="middle"
+    android:divider="?android:dividerHorizontal"
+    android:orientation="vertical">
+
+    <RadioGroup
+        android:id="@+id/beer_selector_group"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:dividerPadding="16dp"
+        android:showDividers="middle"
+        android:divider="?android:dividerVertical"
+        android:paddingTop="5dp">
+
+        <RadioButton
+            android:id="@+id/first_selector_button"
+            android:layout_width="0dip"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:text="2 oz"
+            android:button="@null"
+            android:textColor="@color/scan_badge_text"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/second_selector_button"
+            android:layout_width="0dip"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:checked="true"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:text="8 oz"
+            android:button="@null"
+            android:textColor="@color/scan_badge_text"
+            android:textSize="30dp" />
+
+        <RadioButton
+            android:id="@+id/third_selector_button"
+            android:layout_width="0dip"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:gravity="center"
+            android:paddingRight="8dp"
+            android:text="12 oz"
+            android:button="@null"
+            android:textColor="@color/scan_badge_text"
+            android:textSize="30dp" />
+    </RadioGroup>
+
+    <LinearLayout
+        android:id="@+id/pour_cancel_container"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:dividerPadding="16dp"
+        android:showDividers="middle"
+        android:divider="?android:dividerVertical"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/cancel_button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:text="Cancel"
+            android:textColor="@color/scan_badge_text"
+            android:textSize="30dp" />
+
+        <Button
+            android:id="@+id/pour_button"
+            android:layout_width="match_parent"
+            android:layout_height="75dp"
+            android:layout_weight="1"
+            android:background="@drawable/item_background"
+            android:text="Pour"
+            android:textStyle="bold"
+            android:textColor="@color/accent_color"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+</LinearLayout>

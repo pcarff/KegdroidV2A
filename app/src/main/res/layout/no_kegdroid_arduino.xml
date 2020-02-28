@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="fill_horizontal"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_holo_dark">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:drawableBottom="@drawable/no_kegdroid_attached"
+        android:gravity="center"
+        android:paddingBottom="100dp"
+        android:text="@string/no_kegdroid_attached"
+        android:textColor="#09c"
+        android:fontFamily="sans-serif-thin"
+        android:drawablePadding="32dp"
+        android:textSize="60sp" />
+
+</LinearLayout>

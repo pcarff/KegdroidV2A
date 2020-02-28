@@ -1,0 +1,181 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+MERGED from [com.android.support:design:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/ac9898c35ae5dc88d09b62d60c48ed22/design-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1460c6c6a61a15263898b8065bed8020/appcompat-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-v4:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/feaf15996b538cd99a1bf4693f4d279f/support-v4-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f5cc7273a29a9b8b84dc5c18ce72e21e/support-fragment-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1eb7a16e5374700d031d9b947ae3e1fa/animated-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cc3f7bde466deb0468a85f844794be18/recyclerview-v7-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/62b749cbf018a785d806727e0cd5cd1c/support-core-ui-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/bad6f9dc0e7124aafc895ba364be074a/support-core-utils-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/73531814e83a3f939109c098b69803df/support-vector-drawable-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/17ce60bce7201eb9252d9657baa206d3/transition-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1d880eaebfc3a3366f03328a92f673dc/support-media-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/66237719ff0203ecb2bb9da132943ed0/support-compat-27.1.1/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/034baf61ecc76093c6473880869d6c7d/livedata-core-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/55ba849a3c8a045c874d3c83b65a8453/viewmodel-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/379966e143550e1442447a14fea1645d/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b60d0bcb4f2e634c007f39000166f8b0/runtime-1.1.0/AndroidManifest.xml:17:1-22:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:1-72:12
+	package
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:3:5-46
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+	android:versionName
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:5:5-30
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:4:5-28
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+uses-sdk
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:design:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/ac9898c35ae5dc88d09b62d60c48ed22/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/ac9898c35ae5dc88d09b62d60c48ed22/design-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1460c6c6a61a15263898b8065bed8020/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1460c6c6a61a15263898b8065bed8020/appcompat-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/feaf15996b538cd99a1bf4693f4d279f/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/feaf15996b538cd99a1bf4693f4d279f/support-v4-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f5cc7273a29a9b8b84dc5c18ce72e21e/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/f5cc7273a29a9b8b84dc5c18ce72e21e/support-fragment-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1eb7a16e5374700d031d9b947ae3e1fa/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1eb7a16e5374700d031d9b947ae3e1fa/animated-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cc3f7bde466deb0468a85f844794be18/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/cc3f7bde466deb0468a85f844794be18/recyclerview-v7-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/62b749cbf018a785d806727e0cd5cd1c/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/62b749cbf018a785d806727e0cd5cd1c/support-core-ui-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/bad6f9dc0e7124aafc895ba364be074a/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/bad6f9dc0e7124aafc895ba364be074a/support-core-utils-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/73531814e83a3f939109c098b69803df/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/73531814e83a3f939109c098b69803df/support-vector-drawable-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/17ce60bce7201eb9252d9657baa206d3/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/17ce60bce7201eb9252d9657baa206d3/transition-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1d880eaebfc3a3366f03328a92f673dc/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/1d880eaebfc3a3366f03328a92f673dc/support-media-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/66237719ff0203ecb2bb9da132943ed0/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:27.1.1] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/66237719ff0203ecb2bb9da132943ed0/support-compat-27.1.1/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/034baf61ecc76093c6473880869d6c7d/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/034baf61ecc76093c6473880869d6c7d/livedata-core-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/55ba849a3c8a045c874d3c83b65a8453/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/55ba849a3c8a045c874d3c83b65a8453/viewmodel-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/379966e143550e1442447a14fea1645d/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/379966e143550e1442447a14fea1645d/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b60d0bcb4f2e634c007f39000166f8b0/runtime-1.1.0/AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.0] /Users/pcarff/.gradle/caches/transforms-2/files-2.1/b60d0bcb4f2e634c007f39000166f8b0/runtime-1.1.0/AndroidManifest.xml:20:5-44
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+	android:targetSdkVersion
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:9:9-38
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:7:5-9:41
+		INJECTED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.INTERNET
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.NFC
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:12:5-62
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:12:22-59
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:13:5-81
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:13:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:14:5-79
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:14:22-76
+application
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:16:5-70:19
+	android:label
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:20:9-41
+	android:icon
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:19:9-45
+	android:allowBackup
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:18:9-35
+	android:theme
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:17:9-80
+uses-library#com.android.future.usb.accessory
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:22:9-73
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:22:23-70
+activity#com.anzym.android.kegdroidkiosk.KegDroidKioskMainActivity
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:35:9-48:20
+	android:label
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:37:13-45
+	android:launchMode
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:38:13-44
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:36:13-85
+intent-filter#action:name:android.nfc.action.NDEF_DISCOVERED+category:name:android.intent.category.DEFAULT+data:host:ext+data:pathPrefix:/anzym.com:kegdroid_name+data:scheme:vnd.android.nfc
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:39:13-46:29
+action#android.nfc.action.NDEF_DISCOVERED
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:40:17-77
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:40:25-74
+category#android.intent.category.DEFAULT
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:41:17-76
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:41:27-73
+data
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:42:17-45:56
+	android:host
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:43:21-39
+	android:scheme
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:45:21-53
+	android:pathPrefix
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:44:21-66
+activity#com.anzym.android.kegdroidkiosk.KegDroidKioskLauncherActivity
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:49:9-56:20
+	android:label
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:51:13-45
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:50:13-89
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:52:13-55:29
+action#android.intent.action.MAIN
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:53:17-69
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:53:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:54:17-77
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:54:27-74
+activity#com.anzym.android.kegdroidkiosk.UsbAccessoryActivity
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:57:9-68:20
+	android:label
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:59:13-45
+	android:launchMode
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:60:13-48
+	android:taskAffinity
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:61:13-36
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:58:13-48
+intent-filter#action:name:android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:62:13-64:29
+action#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:63:17-93
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:63:25-90
+meta-data#android.hardware.usb.action.USB_ACCESSORY_ATTACHED
+ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:65:13-67:60
+	android:resource
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:67:17-57
+	android:name
+		ADDED from /Users/pcarff/CODE/Android/KegdroidV2A/app/src/main/AndroidManifest.xml:66:17-82
